@@ -38,6 +38,7 @@ class ProductsController extends Controller
     {
         $record = new Product;
         $record->name = $request->name;
+        $record->name_ar = $request->name_ar;
         $record->price = $request->price;
         $record->category_id = $request->category_id;
 
@@ -87,6 +88,7 @@ class ProductsController extends Controller
         {
             $record = Product::findOrFail($id);
             $record->name = $request->name;
+            $record->name_ar = $request->name_ar;
             $record->price = $request->price;
             $record->category_id = $request->category_id;
     

@@ -16,6 +16,11 @@
                 <label for="name" class="form-label">{{ __('Name') }}</label>
                 <input type="text" class="form-control" id="name" name="name" aria-describedby="emailHelp">
             </div>
+
+            <div class="mb-3">
+                <label for="name_ar" class="form-label">{{ __('Name [Arabic]') }}</label>
+                <input type="text" class="form-control" id="name_ar" name="name_ar" aria-describedby="emailHelp">
+            </div>
     
             <div class="mb-3">
                 <label for="price" class="form-label">{{ __('Price') }}</label>
